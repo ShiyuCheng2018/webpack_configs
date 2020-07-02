@@ -30,7 +30,8 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.21.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "jquery": "latest"
   },
   "production": [
     ">.2%",
@@ -39,5 +40,6 @@
   ],
   "eslintConfig": {
     "extends": "airbnb-base"
-  }
+  },
+  "sideEffects": ["*.css"]
 }
